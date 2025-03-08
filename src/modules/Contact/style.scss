@@ -1,0 +1,157 @@
+.contact {
+  background: #202733;
+  padding: 138px 0;
+}
+
+.contact-box {
+  padding: 30px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 45px;
+  background-image: url("../../assets/form.03148b23e27804568a88\ \(1\).png");
+}
+
+.contact-title {
+  color: $white-color;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 137.5%;
+  max-width: 300px;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  max-width: 420px;
+}
+
+.contact-inp {
+  width: 100%;
+  background: #d9d9d9;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.99;
+  outline: none;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+.contact-textarea {
+  width: 100%;
+  background: #d9d9d9;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.99;
+  outline: none;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+
+.contact-btn {
+  -webkit-backdrop-filter: blur(8.5px);
+  backdrop-filter: blur(8.5px);
+  background: hsla(0, 0%, 100%, 0.3);
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+  border-radius: 35.3223px;
+  color: $white-color;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 510;
+  height: 45px;
+  line-height: 136.6%;
+  margin-top: 30px;
+  transition: 0.3s;
+  padding: 10px 60px;
+  &:hover {
+    background: transparent;
+    transition: 0.3s;
+  }
+}
+
+.modal {
+  align-items: center;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.modal-box {
+  text-align: center;
+  background: #fce8bd;
+  border-radius: 12px;
+  padding: 30px 40px;
+  max-width: 480px;
+}
+
+.modal-title {
+  color: #202733;
+  font-size: 23px;
+  text-align: center;
+}
+
+.modal-btn {
+  border: 2px solid #202733;
+  border-radius: 30px;
+  color: #202733;
+  font-size: 18px;
+  padding: 12px 40px;
+  background: transparent;
+  margin-top: 20px;
+}
+
+.modal-icon {
+  background: #f5e1b2;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  margin-left: 250px;
+}
+
+.modal-con {
+  padding: 0 15px;
+}
+
+.modal-dark {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .contact-box {
+    padding: 30px 30px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact-box {
+    padding: 30px 20px;
+  }
+
+  .contact-box {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal-box {
+    padding: 10px 20px;
+  }
+
+  .modal-title {
+    font-size: 21px;
+  }
+
+  .modal-icon {
+    font-size: 14px;
+  }
+}

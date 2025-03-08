@@ -1,0 +1,58 @@
+.page {
+  background-image: url("/src/assets/rating.9f9cda4caaf5d31ba7bb\ \(1\).png");
+  padding-bottom: 135px;
+  padding-top: 85px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-title {
+  font-size: 25px;
+  font-weight: 400;
+  color: $white-color;
+  line-height: 136.6%;
+}
+
+.page-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  @include reset-list;
+  margin-top: 60px;
+}
+
+.page-box {
+  color: $white-color;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.page-number {
+  margin-right: 10px;
+}
+
+.page-text {
+  color: $white-color;
+  font-family: "Space Grotesk";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 126.34%;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 460px) {
+  .page {
+    padding-bottom: 110px;
+    padding-top: 60px;
+  }
+
+  .page-box {
+    font-size: 30px;
+  }
+
+  .page-text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

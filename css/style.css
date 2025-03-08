@@ -1,0 +1,61 @@
+.meeting {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.meeting-name {
+  color: #222936;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.meeting-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.meeting-text {
+  color: #464646;
+  font-family: "Mulish";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 424px;
+}
+
+.meeting-img {
+  border-radius: 10px;
+  width: 550px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 840px) {
+  .meeting-box {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  .meeting-img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .meeting-text {
+    font-size: 16px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .meeting-box {
+    margin-top: 30px;
+  }
+  .meeting-name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

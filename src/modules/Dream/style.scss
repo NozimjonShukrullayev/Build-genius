@@ -1,0 +1,38 @@
+.dream {
+  padding: 30px 0 50px;
+}
+
+.dream-img {
+  max-width: 100%;
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+}
+
+.dream-card {
+  width: 340px;
+  height: 340px;
+}
+
+.dream .container {
+  overflow: hidden;
+}
+
+.dream-title {
+  color: $black-color;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 28px;
+  opacity: 0.99;
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 0.99;
+}
+
+@media screen and (max-width: 480px) {
+  .dream-img {
+    width: 420px;
+    height: 350px;
+  }
+}

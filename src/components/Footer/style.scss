@@ -1,0 +1,151 @@
+.footer {
+  background: #fce8bd;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-box {
+}
+
+.footer-box:not(:first-child) {
+  margin-left: 30px;
+}
+
+.footer-logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.footer-text {
+  font-size: 22px;
+  color: $black-color;
+  font-weight: 274;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.footer-icon-box {
+  display: inline-flex;
+}
+
+.footer-icon {
+  align-items: center;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 2240.1px;
+  display: flex;
+  height: 59.14px;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+  width: 57.35px;
+  color: $white-color;
+  margin-top: 20px;
+  &:hover {
+    background-color: #fce8bd;
+    border: 1px solid #000;
+    color: #000;
+  }
+}
+
+.footer-icon:not(:first-child) {
+  margin-left: 20px;
+}
+
+.footer-title {
+  color: $black-color;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.footer-ul {
+  @include reset-list;
+}
+
+.footer-list {
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: $black-color;
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 5px;
+  opacity: 0.6;
+  text-decoration: none;
+  position: relative;
+}
+
+.footer-link::before {
+  background: $black-color;
+  border-radius: 23px 10px 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.footer-link:hover::before {
+  transform: scaleX(1);
+}
+
+.footer-btn {
+  margin-bottom: 10px;
+  border: none;
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .footer-box:not(:first-child) {
+    margin-left: 0;
+  }
+
+  .footer-title {
+    font-size: 18px;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+
+  .footer-icon {
+    height: 45px;
+    width: 43px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer-flex {
+    gap: 20px;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .footer-icon {
+    height: 37px;
+    width: 35px;
+  }
+}
