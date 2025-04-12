@@ -1,9 +1,42 @@
-# React + Vite
+# 🏗️ Construction Company Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website for a construction company built with React, Sass, and multilingual support (Uzbek, Russian, English).
 
-Currently, two official plugins are available:
+## 🌐 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Build-genius
+[🔗 Visit Website](https://www.buildgenius.uz/)
+
+---
+
+## 🧰 Tech Stack
+
+- **React 18**
+- **Sass** for custom styling
+- **AOS** for scroll animations
+- **i18next** for internationalization
+- **react-i18next** for language switching
+- **react-router-dom** for page routing
+- **react-slick & slick-carousel** for image sliders
+- **react-icons** for vector icons
+
+---
+
+## 🌍 Languages
+
+- 🇺🇿 Uzbek
+- 🇷🇺 Russian
+- 🇺🇸 English
+
+---
+
+## 🚀 Features
+
+- Multi-language support with i18next
+- Responsive design for all devices
+- Animated sections (AOS)
+- Beautiful service sliders
+- Fast and modern layout using React
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/06e7d81c-6f4a-4ba0-9b78-d5cebb0c0582)
+
